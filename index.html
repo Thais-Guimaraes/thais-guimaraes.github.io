@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Thais Guimarães</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -15,58 +15,404 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="css/my-styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/glider.min.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#page-top">Thais Guimarães</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-dark text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Sobre mim</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Currículo</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contato</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#sobre">Sobre</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resumo">Resumo</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#certificados">Certificados</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portifólio</a></li>
+                       
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#footer-contato">Contato</a></li>
+
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+
+
+
+
+
+        <!-- Section 1 - Sobre mim -->
+        <section class="section-1">
+        <header class="masthead bg-primary text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/profile.png" alt="..." />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Thais Guimarães</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <!--<div class="divider-custom-icon"><i class="fas fa-star"></i></div>-->
+                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip.svg"></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Data Analyst - Data Scientist - BI Analyst</p>
+                <p class="masthead-subheading font-weight-light mb-0">Data Science | Data Analyst</p>
+                <p class="socials">
+                    <a href="mailto:thaisbeguima@gmail.com">
+                        <img src="assets/img/socials/email.svg">
+                    </a>
+                    <a href="https://www.linkedin.com/thaisbeguimaraes">
+                        <img src="assets/img/socials/linkedin.svg">
+                    </a>
+                    <a href="https://github.com/thais-guimaraes">
+                        <img src="assets/img/socials/github.svg">
+                    </a>
+                </p>
+                <button type="button" class="btn btn-dark btn-lg">Download CV</button>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        </section>
+        <!-- Section 1 - header -->
+
+        <!-- Section 2 - Sobre mim-->
+        <section class="page-section bg-primary portfolio section-2" id="sobre">
+            <div class="container">
+                <!-- Sobre mim Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Quem Sou Eu?</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip-2.svg"></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section 2 - Sobre mim-->
+
+
+
+
+
+
+
+
+
+        <!-- Section 3 - Resumo -->
+        <section class="page-section section-3" id="resumo">
+            <div class="container skills-container">
+                    <!-- Portfolio Section Heading-->
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><img src="assets/img/socials/microchip.svg"></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <p class="mb-4 text-center skill-desc">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                    <div class="row row-cols-2 row-cols-md-6 g-4 skills-cards-container">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="assets/img/skills/python.svg" class="card-img-top" alt="python logo">
+                            <div class="card-body">
+                              <h5 class="card-title">Python</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/sql.svg" class="card-img-top" alt="sql logo">
+                              <div class="card-body">
+                                <h5 class="card-title">SQL</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/ling-r.svg" class="card-img-top" alt="linguagem R logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Linguagem R</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/excel.svg" class="card-img-top" alt="excel logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Excel</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/powerbi.svg" class="card-img-top" alt="power bi logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Power BI</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/pyspark.svg" class="card-img-top" alt="pyspark logo">
+                              <div class="card-body">
+                                <h5 class="card-title">PySpark</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/machine-learning.svg" class="card-img-top" alt="machine learning logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Machine Learning</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/estatistica.svg" class="card-img-top" alt="estatísticas logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Estatísticas</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/etl.svg" class="card-img-top" alt="etl logo">
+                              <div class="card-body">
+                                <h5 class="card-title">ETL</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/cloud-comp.svg" class="card-img-top" alt="cloud computing logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Cloud Computing</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/html.svg" class="card-img-top" alt="html logo">
+                              <div class="card-body">
+                                <h5 class="card-title">HTML</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/css.svg" class="card-img-top" alt="css logo">
+                              <div class="card-body">
+                                <h5 class="card-title">CSS</h5>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                              <img src="assets/img/skills/javascript.svg" class="card-img-top" alt="javascript logo">
+                              <div class="card-body">
+                                <h5 class="card-title">Javascript</h5>
+                              </div>
+                            </div>
+                        </div>
+                    </div><!--end-->
+            </div>
+            <div class="container">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Educação & Experiências</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip.svg"></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="mb-4 text-center skill-desc">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum clita dolor duo clita sit.</p>
+                
+                <div class="row resumo-container">
+                    <div class="col-sm-12 col-md-12">
+                        <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                            <li class="nav-item w-50">
+                                <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Educação</button>
+                            </li>
+                            <li class="nav-item w-50">
+                                <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Experiências</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row gy-5 gx-4">
+                                    <div class="col-sm-6">
+                                        <h5>UI Design Course</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Cambridge University</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>IOS Development</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Cambridge University</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Web Design</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Cambridge University</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Apps Design</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Cambridge University</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane fade show p-0">
+                                <div class="row gy-5 gx-4">
+                                    <div class="col-sm-6">
+                                        <h5>UI Designer</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Apex Software Inc</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Product Designer</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Apex Software Inc</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Web Designer</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Apex Software Inc</h6>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h5>Apps Designer</h5>
+                                        <hr class="text-primary my-2">
+                                        <p class="text-primary mb-1">2000 - 2045</p>
+                                        <h6 class="mb-0">Apex Software Inc</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Section 3 - resumo -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Section 4 - certificados -->
+        <section class="page-section section-4" id="certificados">
+            <div class="container glider-contain">
+                <!-- certificados Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Certificados</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip-2.svg"></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="glider">
+                    <div>
+                          <div class="curso-container">
+                              <div class="row">
+
+                                  
+                                  <div class="col-sm-12 col-md-12">
+                                    <div class="curso-title">
+                                      <h4>Data Scientist (Python Developer)</h4>
+                                      <span>Janeiro, 2024</span>
+                                      
+                                    </div>
+                                    <div class="curso-descricao-container">
+                                      <p class="curso-descricao">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat et eros a ultricies. Aenean imperdiet, quam quis aliquet ultrices, metus ex congue ipsum, id viverra nisl urna et nibh. Praesent ullamcorper orci sit amet erat placerat, id lobortis felis scelerisque. Proin facilisis metus libero, non ullamcorper augue euismod eu.
+                                      </p>
+                                      <button type="button" class="btn btn-lg btn-success mb-4">Download</button>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+                    <div>your content here 2</div>
+                    <div>your content here 3</div>
+                    <div>your content here 4</div>
+                </div>
+                  <button aria-label="Previous" class="glider-prev d-none d-md-block d-lg-block d-xl-block d-xxl-block"><img src="assets/img/arrow-left.svg"></button>
+                  <button aria-label="Next" class="glider-next d-none d-md-block d-lg-block d-xl-block d-xxl-block"><img src="assets/img/arrow-right.svg"></button>
+                  <div role="tablist" class="dots"></div>
+
+
+            </div>
+        </section>
+        <!-- /Section 4 - certificados-->
+
+        <!-- Section 5 - Portfolio -->
+        <section class="page-section bg-primary portfolio section-5" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip.svg"></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -74,8 +420,9 @@
                             <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- /Portfolio Item 1 -->
+                    <!-- Portfolio Item 2 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -83,8 +430,9 @@
                             <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- /Portfolio Item 2 -->
+                    <!-- Portfolio Item 3 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -92,8 +440,9 @@
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <!-- /Portfolio Item 3 -->
+                    <!-- Portfolio Item 4 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -101,8 +450,9 @@
                             <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <!-- /Portfolio Item 4 -->
+                    <!-- Portfolio Item 5 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -110,8 +460,9 @@
                             <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
+                    <!-- /Portfolio Item 5 -->
+                    <!-- Portfolio Item 6 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -119,168 +470,125 @@
                             <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
                         </div>
                     </div>
+                    <!-- /Portfolio Item 6 -->
+                    <!-- Portfolio Item 7 -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- /Portfolio Item 7 -->
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+        <!-- /Section 5 - Portfolio -->
+
+        <!-- Footer - Contato -->
+        <section id="footer-contato">
+        <footer>
+                <h3 class="footer-title">Contato</h3>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><img src="assets/img/socials/microchip-2.svg"></div>
+                                    <div class="divider-custom-line"></div>
                                 </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
+                    <p class="footer-socials">
+                        <a href="mailto:thaisbeguima@gmail.com">
+                            <img src="assets/img/socials/email-2.svg">
+                        </a>
+                        <a href="https://www.linkedin.com/thaisbeguimaraes">
+                            <img src="assets/img/socials/linkedin-2.svg">
+                        </a>
+                        <a href="https://github.com/thais-guimaraes">
+                            <img src="assets/img/socials/github-2.svg">
+                        </a>
+                    </p>
+            <!-- Copyright Section-->
+            <div class="my-copyright">
+                <div class="container"><span>Copyright &copy; 2024</span>| Design by Thais Guimarães</div>
             </div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
-        </div>
+        </section>
+        <!-- /Section 2 - Sobre mim-->
+
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
+                    <!--
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    -->
+                    <div class="modal-body pb-5">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 1-->
+
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!--
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    -->
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 2</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -289,62 +597,39 @@
             </div>
         </div>
         <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Portfolio Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
+                    <!--
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    -->
+                    <div class="modal-body pb-5">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 3</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -352,31 +637,40 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
+        <!-- Portfolio Modal 3 -->
+
+        <!-- Portfolio Modal 4 -->
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
+                    <!--
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    -->
+                    <div class="modal-body pb-5">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 4</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -384,31 +678,40 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 5-->
+        <!-- Portfolio Modal 4 -->
+
+        <!-- Portfolio Modal 5 -->
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
+                    <!--
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    -->
+                    <div class="modal-body pb-5">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 5</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -416,31 +719,41 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 6-->
+        <!-- Portfolio Modal 5 -->
+
+
+        <!-- Portfolio Modal 6 -->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
+                    <!--
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
+                    -->
+                    <div class="modal-body pb-5">
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 6</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -448,14 +761,121 @@
                 </div>
             </div>
         </div>
+        <!-- Portfolio Modal 6 -->
+
+        <!-- Portfolio Modal 7 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!--
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    -->
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5 modal-img" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <div class="modal-buttons">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="button" class="btn btn-dark btn-lg">Ver Projeto</button>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="btn btn-dark btn-lg" data-bs-dismiss="modal">
+                                                    Fechar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-desc-text">
+                                        <!-- Portfolio Modal - Title-->
+                                        <h5 class="modal-title mb-0">Log Cabin 7</h5>
+                                        <!-- Portfolio Modal - Text-->
+                                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 7 -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/glider.min.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+   
+<!-- glider -->
+<script>
+new Glider(document.querySelector('.glider'), {
+    // Mobile-first defaults
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    scrollLock: true,
+    draggable: true,
+    dots: '.dots',
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    },
+    responsive: [
+      {
+        // screens greater than >= 775px
+        breakpoint: 775,
+        settings: {
+          // Set to `auto` and provide item width to adjust to viewport
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          itemWidth: 150,
+          duration: 0.25
+        }
+      },{
+        // screens greater than >= 1024px
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          itemWidth: 150,
+          duration: 0.25
+        }
+      }
+    ]
+  });
+
+
+</script>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="assets/img/arrow-up.svg"></button>
+
+<script>
+//to the top
+// Get the button
+let mybutton = document.getElementById("myBtn");
+            
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+            
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+        }
+    }
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
     </body>
 </html>
