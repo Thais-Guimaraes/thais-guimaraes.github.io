@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', event => {
     if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
-            rootMargin: '-38% 0px -38% 0px',
+            rootMargin: '-40% 0px -40% 0px',
         });
     };
 
