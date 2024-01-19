@@ -6,10 +6,7 @@ body::-webkit-scrollbar {
     background: #35b9ab;
   }
    
-  body::-webkit-scrollbar-track {
     
-  }
-   
   body::-webkit-scrollbar-thumb {
     background-color: #212529;
   }
@@ -211,6 +208,24 @@ body::-webkit-scrollbar {
     border-end-end-radius: 0 !important;
     border-end-start-radius: 0 !important;
 }
+
+.modal-btn-padding:first-child{
+    padding-right: 0 !important;
+    
+}
+
+.modal-btn-padding:last-child{
+    padding-left: 0 !important;
+    
+}
+
+.modal-btn-padding:nth-child(2){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
 
 .portfolio .portfolio-item .portfolio-item-caption{
     background: rgba(0,0,0,.85);
